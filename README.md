@@ -6,4 +6,8 @@ This plugin applies a glitch effect to the homepage.
 ## Features
 The <body> tag of the 404.html page is replaced with a fullscreen image featuring a customizable glitch effect and text.
 
-![Screen](https://github.com/gpsblues/Publii-Plugin-404-Glitch-Effect/blob/main/.assets/screen.gif)*Home page slider with three image and static test in Simple3 theme.*
+![Screen](https://github.com/gpsblues/Publii-Plugin-404-Glitch-Effect/blob/main/.assets/screen.gif)*404 glitch effect in Simple3 theme.*
+
+Images, text, CSS, and other parameters are customizable.
+
+![Publii plugin screenshot](https://raw.githubusercontent.com/gpsblues/Publii-Plugin-404-Glitch-Effect/refs/heads/main/.assets/screen.png)
