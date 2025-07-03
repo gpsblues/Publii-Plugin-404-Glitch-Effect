@@ -1,5 +1,5 @@
 # Publii Plugin: 404 Glitch Effect 
-This plugin applies a glitch effect to the homepage.
+This plugin applies a glitch effect to the 404 page.
 
 Coming soon!
 
