@@ -1,7 +1,7 @@
 # Publii Plugin: 404 Glitch Effect 
 This plugin applies a glitch effect to the 404 page.
 
-<p><img height="100" alt="publii plugin" title="Plugin icons" src="https://raw.githubusercontent.com/gpsblues/Publii-Plugin-404-Glitch-Effect/b5852c3caf483c827090fb81efcf4aa5ff9b0daa/.assets/thumbnail.svg"></p>
+<p><img height="100" style="height:100px;" alt="publii plugin" title="Plugin icons" src="https://raw.githubusercontent.com/gpsblues/Publii-Plugin-404-Glitch-Effect/b5852c3caf483c827090fb81efcf4aa5ff9b0daa/.assets/thumbnail.svg"></p>
 
 ## Features
 The `<main>` tag of the 404.html page is replaced with a fullscreen image featuring a customizable glitch effect and text.
@@ -11,6 +11,8 @@ The `<main>` tag of the 404.html page is replaced with a fullscreen image featur
 Images, text, CSS, and other parameters are customizable.
 
 ![Publii plugin screenshot](https://raw.githubusercontent.com/gpsblues/Publii-Plugin-404-Glitch-Effect/refs/heads/main/.assets/screen.png)
+
+If you use this plugin, consider giving it a ⭐ on GitHub: it's the only way for me to know if this work is appreciated. Thank you!
 
 ## Installation and Usage
 - Download the .zip file of the latest plugin version from the [release page](../../releases/).
@@ -55,7 +57,5 @@ For official Publii resources, please visit the [Publii CMS Official Repository]
 
 ## Credits
 The project is inspired by [CSSGlitchEffect](https://github.com/codrops/CSSGlitchEffect/) by botelho (Codrops).
-
-Do you like this plugin? Are you using it in production? Consider giving it a star :)
 
 Happy designing!
