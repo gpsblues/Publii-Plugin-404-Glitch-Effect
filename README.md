@@ -27,13 +27,26 @@ The plugin works exclusively on the `<main>` tag of the 404.html page, replacing
 The plugin works by creating a "sandwich" of your cover image, with different clip-path animations applied to it. For more technical details, check out the [original repository](https://github.com/codrops/CSSGlitchEffect/) that inspired this plugin.
 
 ## Options
-The basic options are very intuitive and consist of uploading the new image and defining the text content and main colors. Unfortunately, at least in this version, it's not possible to keep the original 404 page text defined within the theme.
+The basic options are very intuitive and consist of:
+- Uploading the main image
+- Defining the text content
+- Set main colors.
 
-The advanced options involve setting up some values that let you modify the appearance, like animation delay and additional overlay colors. I recommend playing with the parameters until you find the combination that satisfies you most.
+Unfortunately it's not possible to keep the original 404 page text defined within the theme.
+
+The advanced options involve setting up some values that let you modify the appearance, like
+- Animation delay
+- Additional overlay colors
+- Custom CSS
+- and more
+
+I recommend playing with the parameters until you find the combination that satisfies you most.
 
 ### Design note
-The most important aspect to consider is customizing the CSS rules, which can vary significantly from one theme to another depending on how the original 404 page's HTML structure differs.
+The most important aspect to consider is **customizing the CSS rules**, which can vary significantly from one theme to another depending on how the original 404 page's HTML structure differs.
+
 In most cases, the basic settings will give you good results. However, some themes with special structures, like those using grid systems or side panels, might require more advanced customization rules.
+
 If you discover any interesting settings, don't hesitate to share them in this repository by opening an issue.
 
 ## Disclaimer
@@ -42,7 +55,7 @@ This plugin is an unofficial extension for the [Publii CMS](https://getpublii.co
 For official Publii resources, please visit the [Publii CMS Official Repository](https://marketplace.getpublii.com/plugins/).
 
 ## Credits
-[CSSGlitchEffect](https://github.com/codrops/CSSGlitchEffect/) by botelho.
+The project is inspired by [CSSGlitchEffect](https://github.com/codrops/CSSGlitchEffect/) by botelho (Codrops).
 
 Do you like this plugin? Are you using it in production? Consider giving it a star :)
 
