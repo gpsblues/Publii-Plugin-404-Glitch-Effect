@@ -13,7 +13,7 @@ Images, text, CSS, and other parameters are customizable.
 ![Publii plugin screenshot](https://raw.githubusercontent.com/gpsblues/Publii-Plugin-404-Glitch-Effect/refs/heads/main/.assets/screen.png)
 
 ## Installation and Usage
-- Download the .zip file of the latest plugin version from the [release page](https://github.com/gpsblues/Publii-Plugin-Front-Slider/releases/).
+- Download the .zip file of the latest plugin version from the [release page](../../releases/).
 - Open Publii CMS and [install the plugin](https://getpublii.com/docs/plugins.html#installingplugins).
 - [Enable the plugin](https://getpublii.com/docs/plugins.html#enablingplugins).
 - Set plugin options by clicking on its name.
