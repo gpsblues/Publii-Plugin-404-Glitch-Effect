@@ -1,0 +1,167 @@
+{
+	"name": "Glitch 404",
+	"description": "An eerie Glitch Effect for the 404 page",
+	"license": "GPL-3.0",
+	"author": "Vittorio Ramponi - www.mywebpassion.it",
+	"version": "0.0.1",
+	"scope": "site",
+	"minimumPubliiVersion": "0.40.0",
+	"usePluginSettingsView": false,
+    "useCustomCssForOptions": false,
+    "assets": {
+        "front": [
+            "plugin.min.css",
+            "plugin.css"
+        ]
+    },
+    "messageInOptions": {
+        "type": "info",
+        "text": "This plugin replaces the body of the 404 page with a full-screen glitch effect."
+    },
+    "config": [
+        {
+            "name": "separator",
+            "type": "separator",
+            "label": "",
+            "group": "",
+            "note": "Visit Github <a href='#'>repository plugin</a> page for more information and theme settings.",
+            "size": "no-line"
+        },
+
+        {
+            "name": "imgUrl",
+            "label": "Background image",
+            "value": "",
+            "type": "upload",
+            "note": "",
+            "group":"Image settings"
+        },
+        {
+            "name": "overlayColor",
+            "type": "colorpicker",
+            "label": "Overlay color",
+            "group": "Image settings",
+            "value": "rgba(0,0,0,0)",
+            "note": "Overlay color applied to the image. It is recommended to set high transparency.",
+            "outputFormat": "RGBA"
+        },
+        {
+            "name": "titleText",
+            "label": "Title",
+            "group": "Text settings",
+            "value": "Error 404",
+            "placeholder" : "",
+            "note": "Enter the H1 title of the 404 page.",
+            "type": "text"
+        },
+        {
+            "name": "descriptionText",
+            "label": "Description",
+            "group": "Text settings",
+            "value": "The page you were looking for appears to have been moved, deleted or does not exist. You could go back to where you were or head straight to our home page.",
+            "placeholder" : "",
+            "note": "Insert a brief explanatory message.",
+            "type": "textarea"
+        },
+        {
+            "name": "linkText",
+            "label": "Link label",
+            "group": "Text settings",
+            "value": "Go Home",
+            "placeholder" : "",
+            "note": "Label for the homepage link. Leave blank if you don’t want to include a link to the homepage."
+        },
+        {
+            "name": "textColor",
+            "type": "colorpicker",
+            "label": "Text color",
+            "group": "Text settings",
+            "value": "#ffffff",
+            "note": "<br>",
+            "outputFormat": "HEX"
+        },
+        {
+            "name": "animation",
+            "label": "Glitch text",
+            "group": "Text settings",
+            "note": "Apply the glitch effect to the text. If disabled, the text will remain static on the page.",
+            "value": true,
+            "type": "checkbox"
+        },
+        {
+            "name": "separator",
+            "type": "separator",
+            "label": "",
+            "group": "Advanced",
+            "note": "In this section, you can modify some advanced parameters. The result may be unpredictable :)",
+            "size": "no-line"
+        },
+        {
+            "name": "glitchHeight",
+            "label": "Image height",
+            "group": "Advanced",
+            "value": "90vh",
+            "placeholder" : "",
+            "note": "The image height should be adjusted based on the theme's characteristics and applied styles. Default is 90vh.<br>Below are some examples; theme variables are supported:<br><strong>100vh</strong> | <strong>800px</strong> | <strong>100vh - var(--navbar-height)</strong> | <strong>100vh - var(--header-height)</strong>",
+            "type": "text"
+        },
+        {
+            "name": "color4",
+            "type": "colorpicker",
+            "label": "Color 1",
+            "group": "Advanced",
+            "value": "rgba(0,0,0,0)",
+            "note": "",
+            "outputFormat": "RGBA"
+        },
+        {
+            "name": "color5",
+            "type": "colorpicker",
+            "label": "Color 2",
+            "group": "Advanced",
+            "value": "rgba(0,0,0,0)",
+            "note": "",
+            "outputFormat": "RGBA"
+        },
+        {
+            "name": "timeAnim",
+            "label": "Animation time",
+            "group": "Advanced",
+            "note": "seconds",
+            "value": 5,
+            "type": "range",
+            "min": 1,
+            "max": 10,
+            "step": 0.5 
+        },
+        {
+            "name": "delayAnim",
+            "label": "Delay time",
+            "group": "Advanced",
+            "note": "seconds",
+            "value": 2,
+            "type": "range",
+            "min": 0,
+            "max": 10,
+            "step": 0.5 
+        },
+        {
+            "name": "personalCSS",
+            "label": "Custom CSS",
+            "group": "Advanced",
+            "value": "",
+            "rows" : "15",
+            "note": "The page doesn't look as expected? You can enter your CSS here. This code will only affect the 404 page.<br>Some themes may require specific rules:<br>Mono: <strong>.main {grid-area: main;}</strong>",
+            "type": "textarea"
+        },
+        {
+            "name": "separator",
+            "type": "separator",
+            "label": "",
+            "group": "Credits",
+            "note": "<strong>CSSGlitchEffect</strong> by Codrops. Go to <a href='https://github.com/codrops/CSSGlitchEffect/'>Github repository</a>.",
+            "size": "no-line"
+        }
+        
+    ]
+}
